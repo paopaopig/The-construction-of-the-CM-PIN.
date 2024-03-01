@@ -1,11 +1,10 @@
 # The-construction-of-the-CM-PIN.
-The construction of the CM-PIN.
 Description of the project file: This project was compiled using python3.9.
 
 Instructions for use: First, the refinement network CM-PIN of the given protein-protein interaction network can be obtained through 'main.py',
 and then, the number of essential proteins identified by node ranking methods can be verified using the py files of 9-10 as follows.
 
-1. All data sets used in the paper are in the model_detection folder.
+1. All datasets used in the paper are in the 'datasets' folder.
 
 2.The 'main.py' is the main function for building CM-PIN, which is used to output the refined network CM-PIN corresponding to the input network.
 Among them, the 'refined_by_max_con.py' is used to extract the maximum connected subgraph of the given network; 
